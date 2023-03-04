@@ -1,0 +1,9 @@
+DEVELOPPEMENT :
+- faire les badges dans le chat pour les subs
+- ajouter les fonctionnalités du chat au widget de chat
+- template des mails de ban et unban
+
+MIGRATION SERVEUR :
+- créer les dossiers de tier d'emote pour chaque utilisateur
+- faire la migration de la table bot_commands + bans
+- alter table users modify role varchar(50);

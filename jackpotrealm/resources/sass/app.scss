@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Root variables
+:root {
+
+    // Principal theme (blue)
+    --theme-body: #171e3b;
+    --theme-menu: #0f1629;
+    --theme-card: var(--theme-menu);
+    --theme-chat: #171e3b;
+
+    --theme-text-color: #fff;
+    --theme-text-color-chat: #576186;
+
+    --theme-color: #00a1e8;
+    --theme-color-soft: #0071bb;
+    --theme-color-2: #caf614;
+    --theme-color-soft-2: #acd111;
+
+    --btn-focus-ring-color: var(--theme-color);
+    --btn-focus-ring-color-2: var(--theme-color-2);
+    --btn-card-ring-offset-color: var(--theme-card);
+    --btn-body-ring-offset-color: var(--theme-body);
+    --btn-disabled: #374151;
+
+    --primary-bg: #0f1629;
+    --primary-top-menu: #171e3b;
+    --primary-side-menu: #182246;
+    --primary-light-1: #3490dc;
+    --primary-light-2: rgba(52, 144, 220, 0.25);
+    --primary-light-3: rgba(52, 144, 220, 0.625);
+
+    // Fonts colors
+    --font-color-theme: #ddd;
+    --font-color-hover: #3490dc;
+
+    // Other
+    --menu-height: 64px;
+    --stream-height: calc(100vh - var(--menu-height));
+    --chat-height: calc(100vh - var(--menu-height));
+
+}
+
+.router-link, .btn-link {
+    cursor: pointer;
+    color: var(--theme-color);
+}
+
+// stream and chat on mobile
+@media screen and (max-width: 370px) {
+    :root {
+        --mobile-stream-height: calc(25vh - var(--menu-height)/2);
+        --mobile-chat-height: calc(75vh - var(--menu-height)/2);
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 492px) {
+    :root {
+        --mobile-stream-height: calc(30vh - var(--menu-height)/2);
+        --mobile-chat-height: calc(70vh - var(--menu-height)/2);
+    }
+}
+
+@media screen and (min-width: 492px) and (max-width: 584px) {
+    :root {
+        --mobile-stream-height: calc(35vh - var(--menu-height)/2);
+        --mobile-chat-height: calc(65vh - var(--menu-height)/2);
+    }
+}
+
+@media screen and (min-width: 584px) and (max-width: 676px) {
+    :root {
+        --mobile-stream-height: calc(40vh - var(--menu-height)/2);
+        --mobile-chat-height: calc(60vh - var(--menu-height)/2);
+    }
+}
+
+@media screen and (min-width: 676px) and (max-width: 768px) {
+    :root {
+        --mobile-stream-height: calc(45vh - var(--menu-height)/2);
+        --mobile-chat-height: calc(55vh - var(--menu-height)/2);
+    }
+}
+
+// hide scrollbar
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

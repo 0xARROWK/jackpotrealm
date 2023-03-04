@@ -1,0 +1,20 @@
+{
+    "/app/js/app.js": "/app/js/app.js",
+    "/app/js/echoWidget.js": "/app/js/echoWidget.js",
+    "/app/js/app/vueApp.js": "/app/js/app/vueApp.js",
+    "/app/js/app/home.js": "/app/js/app/home.js",
+    "/app/js/app/login.js": "/app/js/app/login.js",
+    "/app/js/app/signin.js": "/app/js/app/signin.js",
+    "/app/js/app/verify.js": "/app/js/app/verify.js",
+    "/app/js/app/SendResetPasswordLink.js": "/app/js/app/SendResetPasswordLink.js",
+    "/app/js/app/ResetPassword.js": "/app/js/app/ResetPassword.js",
+    "/app/js/app/AccountSettings.js": "/app/js/app/AccountSettings.js",
+    "/app/js/app/Moderation.js": "/app/js/app/Moderation.js",
+    "/app/js/app/Dashboard.js": "/app/js/app/Dashboard.js",
+    "/app/css/app.css": "/app/css/app.css",
+    "/app/css/async.css": "/app/css/async.css",
+    "/app/js/lib.js": "/app/js/lib.js",
+    "/app/js/player.js": "/app/js/player.js",
+    "/app/js/DashProvider_HlsProvider.js": "/app/js/DashProvider_HlsProvider.js",
+    "/app/js/WebRTCProvider.js": "/app/js/WebRTCProvider.js"
+}
